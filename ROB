@@ -1,3 +1,7 @@
+if not game:IsLoaded() then
+    game.Loaded:wait()
+end
+print("loaded")
 _FllJn2g4MagXEr83, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
