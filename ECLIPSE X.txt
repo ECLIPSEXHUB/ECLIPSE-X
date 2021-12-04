@@ -1,3 +1,12 @@
+while true do
 print("FIRST GET THE KEY BROTHER")
+wait(1)
+print("FIXING!!! BOOTY HOLE MAN")
+wait(1)
+print("free my kids")
+wait(1)
+print("logan paul sucked my ass")
+end
+
 
 -- i am fixing thats why this is there
