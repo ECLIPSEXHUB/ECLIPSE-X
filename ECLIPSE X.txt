@@ -1,5 +1,5 @@
 local URL = "https://raw.githubusercontent.com/ECLIPSEXHUB/ECLIPSE-X/main/ZEPHYR%20REPO/"
-
+local string
 local games = {
     [286090429] = "Arsenal",
     [142823291] = "MM2",
@@ -17,7 +17,8 @@ local games = {
     [443406476] = "ProjectLazarus",
     [5865858426] = "RetailTycoon2",
     [6897226634] = "Timber",
-    [192800] = "WorkAtPlace"
+    [192800] = "WorkAtPlace",
+    [1224212277] = "MadCity"
 }
 
 for i,v in next, games do
@@ -25,5 +26,9 @@ for i,v in next, games do
 end
 
 local name = games[game.PlaceId] or games[game.GameId]
-print(URL .. (name or "Universal") .. ".lua")
-return loadstring(game:HttpGet(URL .. (name or "Universal") .. ".lua", true))()
+if name == "MadCity" then
+    string = "https://raw.githubusercontent.com/ECLIPSEXHUB/ECLIPSE-X/main/ROB"
+    else
+        string = URL..(name or "Universal")..".lua"
+    end
+return loadstring(game:HttpGet(string, true))()
