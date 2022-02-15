@@ -1,3 +1,4 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
 local URL = "https://raw.githubusercontent.com/ECLIPSEXHUB/ECLIPSE-X/main/ZEPHYR%20REPO/"
 local games = {
     [286090429] = "Arsenal",
