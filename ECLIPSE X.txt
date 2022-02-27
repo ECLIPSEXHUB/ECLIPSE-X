@@ -20,7 +20,8 @@ local games = {
     [192800] = "WorkAtPlace",
     [1224212277] = "MadCity",
     [6284583030] = "PetSimX",
-    [8554378337] = "WeaponFighting"
+    [8554378337] = "WeaponFighting",
+    [137877687] = "RoCitizens"
 }
 
 for i,v in next, games do
