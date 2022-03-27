@@ -1,3 +1,4 @@
+[[
 games = {
     [286090429] = "Arsenal",
     [142823291] = "MM2",
@@ -23,3 +24,4 @@ games = {
     [1502601752] = "Rabbit_Simulator_2",
     [137885680] = "zombierush"
 }
+]]
