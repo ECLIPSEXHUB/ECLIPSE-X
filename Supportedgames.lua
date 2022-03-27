@@ -1,4 +1,4 @@
-return {
+return games = {
     [286090429] = "Arsenal",
     [142823291] = "MM2",
     [537413528] = "BABFT",
