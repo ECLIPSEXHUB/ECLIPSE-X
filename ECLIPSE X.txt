@@ -33,7 +33,6 @@ local games = {
     [6970542795] = "IslandSurvival",
     [6590445138] = "IslandSurvival",
     [5736409216] = "Mall",
-    [292439477] = "PF",
     [7346416636] = "PopIt",
     [443406476] = "ProjectLazarus",
     [5865858426] = "RetailTycoon2",
