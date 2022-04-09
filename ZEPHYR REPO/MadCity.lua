@@ -1,4 +1,4 @@
-print("v1.14")
+print("v1.3")
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
