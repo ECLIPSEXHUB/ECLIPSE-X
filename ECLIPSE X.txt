@@ -45,6 +45,7 @@ local games = {
     [1502601752] = "Rabbit_Simulator_2",
     [137885680] = "zombierush",
     [166986752] = "PlaneCrazy"
+    [844929123] = "PlaneCrazy"
 }
 
 for i,v in next, games do
