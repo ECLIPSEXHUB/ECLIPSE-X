@@ -1,3 +1,4 @@
+pcall(function()
 local GC = getconnections or get_signal_cons
 if GC then
 print("good exploit:)")
@@ -17,6 +18,7 @@ else
         vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
 end
+        end)
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
