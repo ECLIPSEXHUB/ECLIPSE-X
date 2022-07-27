@@ -1,15 +1,5 @@
 pcall(function()
-local GC = getconnections or get_signal_cons
-if GC then
-print("good exploit:)")
-    for i,v in pairs(GC(game.Players.LocalPlayer.Idled)) do
-        if v["Disable"] then
-            v["Disable"](v)
-        elseif v["Disconnect"] then
-            v["Disconnect"](v)
-        end
-    end
-else
+
     print("lol bad exploit")
     local vu = game:GetService("VirtualUser")
     game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -17,7 +7,6 @@ else
         wait(1)
         vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
-end
         end)
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
