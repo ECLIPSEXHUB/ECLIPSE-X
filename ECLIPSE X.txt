@@ -26,7 +26,6 @@ local games = {
     [142823291] = "MM2",
     [537413528] = "BABFT",
     [3527629287] = "BigPaintball",
-    [2753915549] = "BloxFruits",
     [2551991523] = "BrokenBones",
     [5233782396] = "CreaturesOfSonaria",
     [4410049285] = "DrivingSim",
